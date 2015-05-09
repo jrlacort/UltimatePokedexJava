@@ -10,4 +10,5 @@ public class Pokemon {
     public String habitat ="";
     public String species="";
     public String capture_rate = "";
+    public String evolution_parameter = "";
 }
