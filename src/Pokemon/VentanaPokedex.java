@@ -89,6 +89,8 @@ public class VentanaPokedex extends javax.swing.JFrame {
     
     public VentanaPokedex() {
         initComponents();
+        getContentPane().setBackground(Color.red);
+        
         try {
             imagenPokemons = ImageIO.read(getClass().getResource("black-white.png"));
         } catch (IOException ex) {
@@ -184,8 +186,6 @@ public class VentanaPokedex extends javax.swing.JFrame {
         jLabel4.setText("Ratio Captura:");
 
         jLabel8.setText("Metodo Evol:");
-
-        jLabel9.setText("jLabel9");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
